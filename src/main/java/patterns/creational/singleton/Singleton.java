@@ -1,6 +1,7 @@
 package patterns.creational.singleton;
 
 public class Singleton {
+
     private static volatile Singleton instance;
 
     //2 Double Checked Locking & volatile
